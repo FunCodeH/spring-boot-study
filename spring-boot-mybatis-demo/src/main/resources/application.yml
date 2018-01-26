@@ -1,10 +1,10 @@
 server:
-  port: 8080
+  port: 9091
 
 spring:
     datasource:
         name: test      #数据源名称
-        url: jdbc:mysql://127.0.0.1/logistics?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
+        url: jdbc:mysql://127.0.0.1/mybatis?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
         username: root
         password: 12345
         # 使用druid数据源

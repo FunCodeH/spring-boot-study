@@ -9,18 +9,24 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/user")
 public class UserController {
     @Autowired
     private UserService  userService;
 
-    @RequestMapping
-    public void say(){
-
+    @RequestMapping(value = "/say", method = RequestMethod.GET)
+    public String say(){
+        return "this is mybatis demo";
     }
 
-    @RequestMapping(value = "/add", produces = {"application/json;charset=UTF-8"}, method = RequestMethod.POST)
-    public int addUser(User user){
+    @RequestMapping(value = "/add",  method = RequestMethod.GET)
+    public int addUser(){
         System.out.println("good");
+        User user = new User();
+        user.setUserName("A");
+        user.setEmail("aaa");
+        user.setMobile("1");
+        user.setIsdelete(0);
         return userService.addUser(user);
     }
 
