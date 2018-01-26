@@ -82,9 +82,16 @@
 				<version>1.3.2</version>
 				<configuration>
 					<configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
-					<overwrite>true</overwrite>
+					<overwrite>false</overwrite>
 					<verbose>true</verbose>
 				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>mysql</groupId>
+						<artifactId>mysql-connector-java</artifactId>
+						<version>5.1.39</version>
+					</dependency>
+				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
