@@ -13,7 +13,7 @@ import java.io.IOException;
  * @Author: HeWenBo <br>
  * @Date: 2018-01-27 上午11:16
  */
-@WebFilter(filterName = "apiLogFilter", urlPatterns = "/*",initParams = {})
+@WebFilter(filterName = "apiLogFilter", urlPatterns = "/user/*",initParams = {})
 public class ApiLogFilter implements Filter{
     private Logger logger = Logger.getLogger(this.getClass());
 
