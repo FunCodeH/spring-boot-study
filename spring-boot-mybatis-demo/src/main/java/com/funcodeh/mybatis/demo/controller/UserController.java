@@ -21,7 +21,7 @@ public class UserController {
     }
 
     @ApiOperation(value = "添加用户")
-    @RequestMapping(value = "/serch" , method = RequestMethod.POST)
+    @RequestMapping(value = "/add" , method = RequestMethod.POST)
     public int addUser(@RequestBody @ApiParam(value="添加新用户", required = true) UserDto userDto){
         User user = new User();
         BeanUtils.copyProperties(userDto, user);
@@ -33,7 +33,7 @@ public class UserController {
             @ApiImplicitParam(name = "pageNum", value = "分页",required = false, dataType = "int", paramType = "query"),
             @ApiImplicitParam(name = "pageSize", value = "分页",required = false, dataType = "int", paramType = "query")
     })
-    @RequestMapping(value = "/all", method = RequestMethod.GET)
+    @RequestMapping(value = "/search", method = RequestMethod.GET)
     public Object findAllUser(@RequestParam(required = false, defaultValue = "1") int pageNum,
                               @RequestParam(required = false, defaultValue = "10") int pageSize){
 
