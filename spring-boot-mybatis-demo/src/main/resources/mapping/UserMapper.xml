@@ -122,4 +122,10 @@
       isdelete = #{isdelete,jdbcType=INTEGER}
     where user_id = #{userId,jdbcType=INTEGER}
   </update>
+
+  <select id="selectAllUser"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_user
+  </select>
 </mapper>

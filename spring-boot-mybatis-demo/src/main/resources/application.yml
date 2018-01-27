@@ -3,10 +3,11 @@ server:
 
 spring:
     datasource:
-        name: test      #数据源名称
+        name: druid      #数据源名称
         url: jdbc:mysql://127.0.0.1/mybatis?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
         username: root
         password: 12345
+        platform: mysql
         # 使用druid数据源
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
@@ -29,11 +30,14 @@ spring:
         testOnReturn: false
         # 打开PSCache，并且指定每个连接上PSCache的大小
         poolPreparedStatements: true
-        maxOpenPreparedStatements: 20
+        maxPoolPreparedStatementPerConnectionSize: 20
+        # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
 mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.funcodeh.mybatis.demo
-
+  configLocation: classpath:mybatis-config.xml
 #pagehelper分页插件
 pagehelper:
     #分页插件会自动检测当前的数据库链接，自动选择合适的分页方式。可以配置helperDialect属性来指定分页插件使用哪种方言

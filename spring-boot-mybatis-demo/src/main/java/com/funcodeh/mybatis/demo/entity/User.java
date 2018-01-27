@@ -160,4 +160,15 @@ public class User {
     public void setIsdelete(Integer isdelete) {
         this.isdelete = isdelete;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId=" + userId +
+                ", userName='" + userName + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", email='" + email + '\'' +
+                ", isdelete=" + isdelete +
+                '}';
+    }
 }
