@@ -4,14 +4,13 @@ import org.slf4j.LoggerFactory;
 import org.slf4j.Marker;
 
 /**
- * Function: TODO: ADD FUNCTION <br>
+ * Function: Log打印 <br>
  *
  * @Author: HeWenBo <br>
  * @Date: 2018-01-26 下午4:02
  */
 public class Logger {
     private org.slf4j.Logger logger;
-//  protected org.slf4j.Logger logger = LoggerFactory.getLogger(this.getClass());
 
     /**
      * 构造方法，初始化Log4j的日志对象
