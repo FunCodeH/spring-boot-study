@@ -13,6 +13,7 @@
     <bytecodeTargetLevel>
       <module name="spring-boot-helloworld-demo" target="1.8" />
       <module name="spring-boot-mybatis-demo" target="1.8" />
+      <module name="springshiro" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
