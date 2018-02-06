@@ -2,25 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0965ae28-d793-47ff-bb56-264e0581e4e4" name="Default" comment="修改点：1、在程序启动时就初始化数据源；&#10;2、将sql输出到控制台；&#10;3、解决事务不受spring管理问题。">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/Application.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/controller/UserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/core/config/DatabaseConfiguration.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/core/filter/ApiLogFilter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/core/logger/Logger.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/core/swagger/SwaggerConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/core/utils/SwaggerUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/dto/UserDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/entity/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/mapper/UserMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/service/UserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/com/funcodeh/mybatis/demo/service/impl/UserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/spring-boot-shiro-demo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/generator/generatorConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/logback-spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/mapping/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/target/classes/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/resources/sql/version1.1.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/Application.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/controller/UserController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/core/config/DatabaseConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/core/filter/ApiLogFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/core/logger/Logger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/core/swagger/SwaggerConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/core/utils/SwaggerUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/dto/UserDto.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/entity/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/mapper/UserMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/service/UserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/java/com/funcodeh/mybatis/demo/service/impl/UserServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/resources/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/resources/generator/generatorConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/resources/logback-spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/resources/mapping/UserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/main/resources/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-mybatis-shiro-demo/src/test/java/com/funcodeh/mybatis/springbootmybatisdemo/SpringBootMybatisDemoApplicationTests.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-boot-helloworld-demo/target/" />
@@ -47,8 +53,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="952" column="18" lean-forward="true" selection-start-line="952" selection-start-column="18" selection-end-line="952" selection-end-column="18" />
+            <state relative-caret-position="33">
+              <caret line="954" column="19" lean-forward="true" selection-start-line="954" selection-start-column="19" selection-end-line="954" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -176,7 +182,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="837" />
@@ -453,8 +459,7 @@
     <option name="totallyTimeSpent" value="4917000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="837" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="837" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -465,7 +470,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48886532" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36267233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56738544" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56738544" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -744,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="952" column="18" lean-forward="true" selection-start-line="952" selection-start-column="18" selection-end-line="952" selection-end-column="18" />
+        <state relative-caret-position="33">
+          <caret line="954" column="19" lean-forward="true" selection-start-line="954" selection-start-column="19" selection-end-line="954" selection-end-column="19" />
           <folding />
         </state>
       </provider>
