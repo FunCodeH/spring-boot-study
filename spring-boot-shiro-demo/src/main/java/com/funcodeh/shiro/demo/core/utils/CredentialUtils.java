@@ -1,4 +1,4 @@
-package com.funcodeh.shiro.demo.utils;
+package com.funcodeh.shiro.demo.core.utils;
 
 import java.util.UUID;
 

@@ -1,52 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0965ae28-d793-47ff-bb56-264e0581e4e4" name="Default" comment="修改点：删除shrio目录">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_0_2_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+    <list default="true" id="0965ae28-d793-47ff-bb56-264e0581e4e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/config/DatabaseConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/filter/ApiLogFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/logger/Logger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/swagger/SwaggerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/utils/SwaggerUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/generator/generatorConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/logback-spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/mybatis-config.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/utils/CredentialUtils.java" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/utils/CredentialUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/spring-boot-study.iml" afterPath="$PROJECT_DIR$/.idea/spring-boot-study.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-helloworld-demo/src/main/java/com/funcodeh/hello/say/sayController.java" afterPath="$PROJECT_DIR$/spring-boot-helloworld-demo/src/main/java/com/funcodeh/hello/say/sayController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/config/DatabaseConfiguration.java" afterPath="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/config/DatabaseConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/filter/ApiLogFilter.java" afterPath="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/filter/ApiLogFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/logger/Logger.java" afterPath="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/logger/Logger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/logback-spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-shiro-demo/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-boot-helloworld-demo/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-mybatis-demo/target/" />
     <ignored path="$PROJECT_DIR$/../../demo/target/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-shiro-demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,81 +45,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRealm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/realm/UserRealm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractShiroConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/security/AbstractShiroConfiguration.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractUserRealm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/security/AbstractUserRealm.java">
+      <file leaf-file-name="DatabaseConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/config/DatabaseConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="123">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiroConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/security/ShiroConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-boot-study.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/spring-boot-study.iml">
+      <file leaf-file-name="ApiLogFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/filter/ApiLogFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/generator/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="614">
+              <caret line="38" column="79" lean-forward="false" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -148,11 +99,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/test/java/com/funcodeh/shiro/demo/DemoApplicationTests.java">
+      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/logback-spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="418">
+              <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -189,14 +180,10 @@
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/entity/User.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/mybatis-config.xml.fxml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/config/DatabaseConfiguration.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/Application.java" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/logger/Logger.java" />
-        <option value="$PROJECT_DIR$/spring-boot-helloworld-demo/src/main/java/com/funcodeh/hello/say/sayController.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/generator/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/filter/ApiLogFilter.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/utils/SwaggerUtils.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/swagger/SwaggerConfig.java" />
@@ -204,16 +191,30 @@
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/controller/UserController.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/Application.java" />
         <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/entity/User.java" />
         <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/security/AbstractShiroConfiguration.java" />
         <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/security/AbstractUserRealm.java" />
         <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/security/ShiroConfiguration.java" />
         <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/Application.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/utils/CredentialUtils.java" />
         <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/realm/UserRealm.java" />
+        <option value="$PROJECT_DIR$/spring-boot-helloworld-demo/src/main/java/com/funcodeh/hello/say/sayController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/config/DatabaseConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/filter/ApiLogFilter.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/logger/Logger.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/config/DatabaseConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/filter/ApiLogFilter.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/swagger/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/utils/CredentialUtils.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro-demo/pom.xml" />
       </list>
     </option>
   </component>
@@ -248,7 +249,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="837" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -293,25 +294,25 @@
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-shiro-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-shiro-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-shiro-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-shiro-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -319,7 +320,7 @@
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-shiro-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -328,7 +329,7 @@
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-shiro-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -338,32 +339,53 @@
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-shiro-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-shiro-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
               <item name="spring-boot-shiro-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="realm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-study" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-shiro-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,6 +412,8 @@
       <recent name="com.funcodeh.mybatis.demo.core.swagger" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo" />
       <recent name="$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources" />
     </key>
   </component>
@@ -625,14 +649,29 @@
       <option name="project" value="LOCAL" />
       <updated>1517910660373</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改点：增加shrio目录">
+      <created>1517910789855</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1517910789855</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改点：使用UUID产生随机密码">
+      <created>1517968445790</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1517968445790</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="4917000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="837" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -643,16 +682,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48886532" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36267233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5525606" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.286578" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2074392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26466382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21024258" sideWeight="0.496875" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32043532" sideWeight="0.496875" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -725,7 +764,9 @@
     <MESSAGE value="修改点：1、在程序启动时就初始化数据源；&#10;2、将sql输出到控制台；&#10;3、解决事务不受spring管理问题。" />
     <MESSAGE value="修改点：删除shrio目录" />
     <MESSAGE value="修改点：创建shiro-demo目录，实现简单的用户名密码匹配，用户名密码写死，后续再增加mybatis。" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改点：创建shiro-demo目录，实现简单的用户名密码匹配，用户名密码写死，后续再增加mybatis。" />
+    <MESSAGE value="修改点：增加shrio目录" />
+    <MESSAGE value="修改点：使用UUID产生随机密码" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改点：使用UUID产生随机密码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -737,157 +778,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/banner.txt" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/spring-boot-mybatis-demo.iml" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/mybatis-config.xml.fxml" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/mapping/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/config/DatabaseConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-helloworld-demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2484">
-          <caret line="1225" column="28" lean-forward="false" selection-start-line="1225" selection-start-column="28" selection-end-line="1225" selection-end-column="28" />
-          <folding>
-            <marker date="1517910670000" expanded="true" signature="76543:76568" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="76543:76590" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="76543:76624" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="76543:76644" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="76543:76659" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="76543:77413" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="76543:77428" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="76694:77000" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="76713:76985" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="76787:76965" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="76827:76931" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="76848:76909" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="77052:77399" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="77071:77384" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="77186:77364" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="77226:77330" ph="..." />
-            <marker date="1517910670000" expanded="true" signature="77247:77308" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/logger/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/filter/ApiLogFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/resources/sql/version1.1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/utils/SwaggerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/dto.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="171" column="20" lean-forward="false" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/dto/UserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/swagger/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.3/pagehelper-5.0.3.jar!/com/github/pagehelper/PageHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1196">
-          <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.3/pagehelper-5.0.3.jar!/com/github/pagehelper/page/PageMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.3/pagehelper-5.0.3.jar!/com/github/pagehelper/Page.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -908,23 +798,6 @@
         <state relative-caret-position="198">
           <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,7 +822,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1517909300000" expanded="true" signature="757:801" ph="..." />
+            <marker date="1517969924000" expanded="true" signature="866:910" ph="..." />
           </folding>
         </state>
       </provider>
@@ -986,37 +859,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-helloworld-demo/src/main/java/com/funcodeh/hello/say/sayController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/test/java/com/funcodeh/mybatis/springbootmybatisdemo/SpringBootMybatisDemoApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,44 +875,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/test/java/com/funcodeh/shiro/demo/DemoApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1082,14 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/realm/UserRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1122,6 +927,323 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="1273" column="10" lean-forward="true" selection-start-line="1273" selection-start-column="10" selection-end-line="1273" selection-end-column="10" />
+          <folding>
+            <marker date="1517970532000" expanded="true" signature="83984:84001" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="83984:84019" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="83984:84032" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="83984:84047" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84082:86665" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84095:86650" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84149:84444" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84168:84429" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84231:84409" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84271:84375" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84292:84353" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84494:84821" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84513:84806" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84608:84786" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84648:84752" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84669:84730" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84872:85137" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84891:85122" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84924:85102" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84964:85068" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="84985:85046" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85180:85486" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85199:85471" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85273:85451" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85313:85417" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85334:85395" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85537:85896" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85556:85881" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85638:85861" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85678:85827" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85699:85805" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85780:85805" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85931:86237" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="85950:86222" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="86024:86202" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="86064:86168" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="86085:86146" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="86289:86636" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="86308:86621" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="86423:86601" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="86463:86567" ph="..." />
+            <marker date="1517970532000" expanded="true" signature="86484:86545" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="26" column="83" lean-forward="true" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/realm/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-helloworld-demo/src/main/java/com/funcodeh/hello/say/sayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-helloworld-demo/src/test/java/com/funcodeh/hello/SpringBootHelloworldDemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/logger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/swagger/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/utils/SwaggerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/dto/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2869">
+          <caret line="171" column="20" lean-forward="false" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="117" column="12" lean-forward="false" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/utils/SwaggerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/swagger/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/logger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/filter/ApiLogFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/config/DatabaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/core/utils/CredentialUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/config/DatabaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/java/com/funcodeh/mybatis/demo/core/filter/ApiLogFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="38" column="79" lean-forward="false" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/java/com/funcodeh/shiro/demo/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding />
         </state>
       </provider>

@@ -1,8 +1,8 @@
-package com.funcodeh.mybatis.demo.core.config;
+package com.funcodeh.shiro.demo.core.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.spring.stat.DruidStatInterceptor;
-import com.funcodeh.mybatis.demo.core.logger.Logger;
+import com.funcodeh.shiro.demo.core.logger.Logger;
 import org.springframework.aop.support.JdkRegexpMethodPointcut;
 import org.springframework.boot.bind.RelaxedPropertyResolver;
 import org.springframework.context.EnvironmentAware;

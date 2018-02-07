@@ -1,4 +1,4 @@
-package com.funcodeh.mybatis.demo.core.logger;
+package com.funcodeh.shiro.demo.core.logger;
 
 import org.slf4j.LoggerFactory;
 import org.slf4j.Marker;

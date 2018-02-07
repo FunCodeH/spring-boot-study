@@ -1,6 +1,7 @@
-package com.funcodeh.mybatis.demo.core.filter;
+package com.funcodeh.shiro.demo.core.filter;
 
-import com.funcodeh.mybatis.demo.core.logger.Logger;
+
+import com.funcodeh.shiro.demo.core.logger.Logger;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
