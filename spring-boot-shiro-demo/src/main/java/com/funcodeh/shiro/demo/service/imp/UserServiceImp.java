@@ -52,4 +52,25 @@ public class UserServiceImp implements UserService{
 
         return new ResultDto("添加用户成功", "");
     }
+
+    /**
+     * 根据用户名删除用户
+     * @param userName
+     * @return
+     */
+    @Override
+    public ResultDto deleteUser(String userName) {
+
+        User user = userMapper.selectByUserName(userName);
+        ResultDto resultDto = new ResultDto();
+
+        if (user != null) {
+            user.setIsdelete(1);
+            userMapper.updateByPrimaryKey(user);
+            resultDto.setMsg("删除成功");
+        }else{
+            resultDto.setMsg("用户不存在，无法删除");
+        }
+        return resultDto;
+    }
 }

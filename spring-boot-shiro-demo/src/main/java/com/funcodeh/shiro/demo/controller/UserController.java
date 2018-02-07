@@ -4,6 +4,7 @@ import com.funcodeh.shiro.demo.dto.ResultDto;
 import com.funcodeh.shiro.demo.service.UserService;
 import com.funcodeh.shiro.demo.dto.UserDto;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,11 +24,17 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-
     @RequestMapping(value = "/add", method = RequestMethod.POST)
     @ApiOperation("添加用户信息")
     public ResultDto addUser(@RequestBody @ApiParam(value = "添加新用户", required = true) UserDto userDto){
 
         return userService.insertUser(userDto);
+    }
+
+    @RequestMapping(value = "/delete/{userName}", method = RequestMethod.GET)
+    @ApiOperation("删除用户")
+    @ApiImplicitParam(value = "用户名", name = "userName", defaultValue = " ", required = true, dataType = "string", paramType = "path")
+    public ResultDto deleteUser(@PathVariable String userName){
+        return userService.deleteUser(userName);
     }
 }

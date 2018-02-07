@@ -13,4 +13,9 @@ public interface UserService {
      * 用户注册时，插入新用户
      */
     ResultDto insertUser(UserDto userDto);
+
+    /**
+     * 根据用户名删除用户
+     */
+    ResultDto deleteUser(String userName);
 }
