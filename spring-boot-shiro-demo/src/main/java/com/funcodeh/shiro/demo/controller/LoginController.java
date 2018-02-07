@@ -1,13 +1,19 @@
 package com.funcodeh.shiro.demo.controller;
 
+import com.funcodeh.shiro.demo.Dto.UserDto;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.subject.Subject;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Date;
 
 /**
  * Function: TODO: ADD FUNCTION  <br>
@@ -15,14 +21,17 @@ import javax.servlet.http.HttpServletRequest;
  * Date: 2018-02-06 17:46:00
  */
 @RestController
+@Api(description = " ", tags = "002、登录管理")
 public class LoginController {
 
     public static final String UNKNOWN = "unknown";
 
-    @RequestMapping(value="/login",method= RequestMethod.GET)
-    public String login(HttpServletRequest request) throws Exception {
-        String username = "Li";
-        String password = "123";
+    @ApiOperation(value = "登录")
+    @RequestMapping(value="/login",method= RequestMethod.POST)
+    public String login(@RequestBody @ApiParam(value = "用户登录", required = true) UserDto userDto,
+                        HttpServletRequest request) throws Exception {
+        String username = userDto.getUserName();
+        String password = userDto.getPassword();
         //记录当前用户到session，方便后续使用
         SecurityUtils.getSubject().getSession().setAttribute("username", username);
 
@@ -59,5 +68,20 @@ public class LoginController {
             token.clear();
         }
         return "loginSuccess";
+    }
+
+    @ApiOperation("登出")
+    @RequestMapping(value = "/logout", method = RequestMethod.GET)
+    public String logout(HttpServletRequest request) throws Exception {
+
+        //仅退出已登录用户
+        if (SecurityUtils.getSubject().isAuthenticated()) {
+
+            String username = (String) SecurityUtils.getSubject().getPrincipal();
+            System.out.println("用户[" + username + "]安全退出");
+            //进行用户的退出，给出提示信息
+            SecurityUtils.getSubject().logout();
+        }
+        return "loginOut";
     }
 }
