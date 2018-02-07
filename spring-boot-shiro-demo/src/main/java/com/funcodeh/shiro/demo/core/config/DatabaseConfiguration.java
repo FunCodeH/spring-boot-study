@@ -62,7 +62,7 @@ public class DatabaseConfiguration implements EnvironmentAware {
     @Bean(name = "druid-stat-pointcut")
     public JdkRegexpMethodPointcut setJdkRegexpMethodPointcut() {
         JdkRegexpMethodPointcut jdk = new JdkRegexpMethodPointcut();
-        jdk.setPatterns("com.funcodeh.mybatis.demo.*");
+        jdk.setPatterns("com.funcodeh.shiro.demo.*");
         return jdk;
     }
 }

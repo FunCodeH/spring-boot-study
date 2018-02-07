@@ -1,4 +1,4 @@
-package com.funcodeh.shiro.demo.Dto;
+package com.funcodeh.shiro.demo.dto;
 
 import lombok.Data;
 

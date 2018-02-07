@@ -1,6 +1,6 @@
 package com.funcodeh.shiro.demo.controller;
 
-import com.funcodeh.shiro.demo.Dto.UserDto;
+import com.funcodeh.shiro.demo.dto.UserDto;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.Date;
 
 /**
  * Function: TODO: ADD FUNCTION  <br>
@@ -22,12 +21,13 @@ import java.util.Date;
  */
 @RestController
 @Api(description = " ", tags = "002、登录管理")
+@RequestMapping("/api/login")
 public class LoginController {
 
     public static final String UNKNOWN = "unknown";
 
     @ApiOperation(value = "登录")
-    @RequestMapping(value="/login",method= RequestMethod.POST)
+    @RequestMapping(value="/loginIn",method= RequestMethod.POST)
     public String login(@RequestBody @ApiParam(value = "用户登录", required = true) UserDto userDto,
                         HttpServletRequest request) throws Exception {
         String username = userDto.getUserName();
@@ -71,7 +71,7 @@ public class LoginController {
     }
 
     @ApiOperation("登出")
-    @RequestMapping(value = "/logout", method = RequestMethod.GET)
+    @RequestMapping(value = "/loginOut", method = RequestMethod.GET)
     public String logout(HttpServletRequest request) throws Exception {
 
         //仅退出已登录用户

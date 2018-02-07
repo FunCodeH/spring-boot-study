@@ -7,6 +7,8 @@
 	<groupId>spring-boot-shiro-demo</groupId>
 	<artifactId>spring-boot-shiro-demo</artifactId>
 	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -22,6 +24,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.3.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -46,7 +53,7 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
-			<version>0.2.23</version>
+			<version>1.1.6</version>
 		</dependency>
 		<!-- 分页插件 -->
 		<dependency>
