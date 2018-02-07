@@ -16,7 +16,7 @@
         </commentGenerator>
         <!--数据库链接URL，用户名、密码 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1/mybatis?useSSL=false"
+                        connectionURL="jdbc:mysql://127.0.0.1/shiro?useSSL=false"
                         userId="root" password="12345">
         </jdbcConnection>
         <javaTypeResolver>
