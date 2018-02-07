@@ -19,7 +19,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(SwaggerUtils.basePackages(new String[]{("com.funcodeh.mybatis.demo")}))
+                .apis(SwaggerUtils.basePackages(new String[]{("com.funcodeh.shiro.demo")}))
                 .paths(PathSelectors.any())
                 .build();
     }
