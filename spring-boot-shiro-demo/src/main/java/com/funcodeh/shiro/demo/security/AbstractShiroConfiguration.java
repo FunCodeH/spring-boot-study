@@ -1,5 +1,6 @@
 package com.funcodeh.shiro.demo.security;
 
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
@@ -47,5 +48,7 @@ public abstract class AbstractShiroConfiguration {
         securityManager.setRealms(reams);
         return securityManager;
     }
+
+    public abstract HashedCredentialsMatcher hashedCredentialsMatcher();
 
 }

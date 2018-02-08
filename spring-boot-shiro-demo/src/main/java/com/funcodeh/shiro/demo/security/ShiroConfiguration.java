@@ -1,6 +1,7 @@
 package com.funcodeh.shiro.demo.security;
 
 import com.funcodeh.shiro.demo.realm.UserRealm;
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.springframework.context.annotation.Bean;
@@ -43,10 +44,29 @@ public class ShiroConfiguration extends AbstractShiroConfiguration {
     @Bean
     public UserRealm createUserRealm() {
         UserRealm userRealm = new UserRealm();
-        //告诉realm,使用credentialsMatcher加密算法类来验证密文
-        //userRealm.setCredentialsMatcher(hashedCredentialsMatcher());
-        //userRealm.setCachingEnabled(false);
+        //用hashedCredentialsMatcher加密算法验证密文
+        userRealm.setCredentialsMatcher(hashedCredentialsMatcher());
+        userRealm.setCachingEnabled(false);
         return userRealm;
+    }
+
+    /**
+     * 凭证匹配器
+     * @return
+     */
+    @Override
+    @Bean(name = "credentialsMatcher")
+    public HashedCredentialsMatcher hashedCredentialsMatcher() {
+        HashedCredentialsMatcher hashedCredentialsMatcher =
+                new HashedCredentialsMatcher();
+
+        hashedCredentialsMatcher.setHashAlgorithmName("md5");
+        //加密次数
+        hashedCredentialsMatcher.setHashIterations(1);
+        //storedCredentialsHexEncoded默认是true，此时用的是密码加密用的是Hex编码；false时用Base64编码
+        hashedCredentialsMatcher.setStoredCredentialsHexEncoded(true);
+
+        return hashedCredentialsMatcher;
     }
 
 
