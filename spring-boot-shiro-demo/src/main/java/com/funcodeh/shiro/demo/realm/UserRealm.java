@@ -5,7 +5,6 @@ import com.funcodeh.shiro.demo.entity.User;
 import com.funcodeh.shiro.demo.mapper.UserMapper;
 import com.funcodeh.shiro.demo.security.AbstractUserRealm;
 
-import com.funcodeh.shiro.demo.service.UserService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -14,6 +13,9 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -31,8 +33,16 @@ public class UserRealm extends AbstractUserRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(
             PrincipalCollection principals) {
-        SimpleAuthorizationInfo info =  new SimpleAuthorizationInfo();
-        return info;
+        List<String> userRoles = new ArrayList<>();
+        List<String> userPermissions = new ArrayList<>();
+
+        userRoles.add("R0234");
+        userPermissions.add("mgt");
+        //为当前用户设置角色和权限
+        SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
+        authorizationInfo.addRoles(userRoles);
+        authorizationInfo.addStringPermissions(userPermissions);
+        return authorizationInfo;
     }
 
     /**
